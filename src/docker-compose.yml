@@ -1,8 +1,14 @@
 version: '3.4'
 
 services:
+  companydb:
+    image: mongo
+
   company.api:
     image: ${DOCKER_REGISTRY-}companyapi
     build:
       context: .
-      dockerfile: Services\Company\Company.API\Dockerfile
+      dockerfile: Services/Company/Company.API/Dockerfile
+
+volumes:
+  mongo_data:

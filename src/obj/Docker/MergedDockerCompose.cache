@@ -2,10 +2,27 @@ services:
   company.api:
     build:
       context: C:\Users\cogdotnet808\source\repos\StockMarketRepository\src
-      dockerfile: Services\Company\Company.API\Dockerfile
+      dockerfile: Services/Company/Company.API/Dockerfile
+    container_name: company.api
+    depends_on:
+      companydb:
+        condition: service_started
     environment:
       ASPNETCORE_ENVIRONMENT: Development
+      DatabaseSettings:ConnectionString: mongodb://companydb:27017
     image: companyapi
     ports:
-    - target: 80
+    - published: 8000
+      target: 80
+  companydb:
+    container_name: companydb
+    image: mongo
+    ports:
+    - published: 27017
+      target: 27017
+    restart: always
+    volumes:
+    - mongo_data:/data/db:rw
 version: '3.4'
+volumes:
+  mongo_data: {}
