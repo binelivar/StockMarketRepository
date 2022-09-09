@@ -1,0 +1,17 @@
+C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\bin\Debug\net5.0\Stock.Infrastructure.deps.json
+C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\bin\Debug\net5.0\Stock.Infrastructure.dll
+C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\bin\Debug\net5.0\ref\Stock.Infrastructure.dll
+C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\bin\Debug\net5.0\Stock.Infrastructure.pdb
+C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\bin\Debug\net5.0\Stock.Application.dll
+C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\bin\Debug\net5.0\Stock.Domain.dll
+C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\bin\Debug\net5.0\Stock.Application.pdb
+C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\bin\Debug\net5.0\Stock.Domain.pdb
+C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\obj\Debug\net5.0\Stock.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\obj\Debug\net5.0\Stock.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\obj\Debug\net5.0\Stock.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\obj\Debug\net5.0\Stock.Infrastructure.AssemblyInfo.cs
+C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\obj\Debug\net5.0\Stock.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\obj\Debug\net5.0\Stock.Infrastructure.csproj.CopyComplete
+C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\obj\Debug\net5.0\Stock.Infrastructure.dll
+C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\obj\Debug\net5.0\ref\Stock.Infrastructure.dll
+C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\obj\Debug\net5.0\Stock.Infrastructure.pdb

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "P35oRnJ3l2EtGdQUgiVA+Of+FeBTT6q+QVyYo3m1N2UuEIs/naLnT3T5WmHTa0a1IGA+R39EtmyN1TipgE5Eiw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cogdotnet808\\source\\repos\\StockMarketRepository\\src\\Services\\Stock\\Stock.Application\\Stock.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cogdotnet808\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\cogdotnet808\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\cogdotnet808\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\cogdotnet808\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
+    "C:\\Users\\cogdotnet808\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\cogdotnet808\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
