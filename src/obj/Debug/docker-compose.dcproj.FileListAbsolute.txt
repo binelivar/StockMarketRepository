@@ -18,4 +18,3 @@ C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\bin\Debug\SharpComp
 C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\bin\Debug\Company.API.pdb
 C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
-C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\obj\Debug\docker-compose.dcproj.CopyComplete

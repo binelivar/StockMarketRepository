@@ -11,7 +11,6 @@ C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stoc
 C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\obj\Debug\net5.0\Stock.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\obj\Debug\net5.0\Stock.Infrastructure.AssemblyInfo.cs
 C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\obj\Debug\net5.0\Stock.Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\obj\Debug\net5.0\Stock.Infrastructure.csproj.CopyComplete
 C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\obj\Debug\net5.0\Stock.Infrastructure.dll
 C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\obj\Debug\net5.0\ref\Stock.Infrastructure.dll
 C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Stock\Stock.Infrastructure\obj\Debug\net5.0\Stock.Infrastructure.pdb

@@ -38,7 +38,6 @@ C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Company\Co
 C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Company\Company.API\obj\Debug\net5.0\staticwebassets\Company.API.StaticWebAssets.xml
 C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Company\Company.API\obj\Debug\net5.0\scopedcss\bundle\Company.API.styles.css
 C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Company\Company.API\obj\Debug\net5.0\Company.API.RazorTargetAssemblyInfo.cache
-C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Company\Company.API\obj\Debug\net5.0\Company.API.csproj.CopyComplete
 C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Company\Company.API\obj\Debug\net5.0\Company.API.dll
 C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Company\Company.API\obj\Debug\net5.0\ref\Company.API.dll
 C:\Users\cogdotnet808\source\repos\StockMarketRepository\src\Services\Company\Company.API\obj\Debug\net5.0\Company.API.pdb

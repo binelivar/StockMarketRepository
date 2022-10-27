@@ -4,6 +4,9 @@ services:
   companydb:
     image: mongo
 
+  stockdb:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+
   company.api:
     image: ${DOCKER_REGISTRY-}companyapi
     build:

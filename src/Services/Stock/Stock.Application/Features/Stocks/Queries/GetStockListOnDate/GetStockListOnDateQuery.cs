@@ -15,7 +15,5 @@ namespace Stock.Application.Features.Stocks.Queries.GetStockListOnDate
     {
         CompanyCode = companyCode ?? throw new ArgumentNullException(nameof(companyCode));
     }
-}
-{
     }
 }

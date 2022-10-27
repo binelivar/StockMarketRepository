@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Stock.Application.Contracts.Persistence
 {
-    public interface IStockRepository : IAsyncRepository<Stocks>
+    public interface IStockRepository : IAsyncRepository<Domain.Entities.StocksModel>
     {
-        Task<IEnumerable<Stocks>> GetStocksByCompanyCode(string code);
+        Task<IEnumerable<Domain.Entities.StocksModel>> GetStocksByCompanyCode(string code);
     }
 }

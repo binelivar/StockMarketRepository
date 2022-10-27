@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Stock.Domain.Entities
 {
-    public class Stocks : EntityBase
+    public class StocksModel : EntityBase
     {
         public string CompanyCode { get; set; }
 
