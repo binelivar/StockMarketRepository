@@ -1,0 +1,62 @@
+services:
+  company.api:
+    build:
+      context: C:\Users\cogdotnet808\source\repos\StockMarketRepository\src
+      dockerfile: Services/Company/Company.API/Dockerfile
+    container_name: company.api
+    depends_on:
+      companydb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DatabaseSettings:ConnectionString: mongodb://companydb:27017
+    image: companyapi
+    ports:
+    - published: 8000
+      target: 80
+  companydb:
+    container_name: companydb
+    image: mongo
+    ports:
+    - published: 27017
+      target: 27017
+    restart: always
+    volumes:
+    - mongo_data:/data/db:rw
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management-alpine
+    ports:
+    - published: 5672
+      target: 5672
+    - published: 15672
+      target: 15672
+    restart: always
+  stock.api:
+    build:
+      context: C:\Users\cogdotnet808\source\repos\StockMarketRepository\src
+      dockerfile: Services\Stock\Stock.API\Dockerfile
+    depends_on:
+      stockdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:StockConnectionString: Server=stockdb;Database=StockDb;User
+        Id=sa;Password=pass@word1
+    image: stockapi
+    ports:
+    - published: 8001
+      target: 80
+  stockdb:
+    container_name: stockdb
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: pass@word1
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    ports:
+    - published: 1433
+      target: 1433
+    restart: always
+version: '3.4'
+volumes:
+  mongo_data: {}

@@ -1,0 +1,38 @@
+services:
+  company.api:
+    build:
+      context: C:\Users\cogdotnet808\source\repos\StockMarketRepository\src
+      dockerfile: Services/Company/Company.API/Dockerfile
+    container_name: company.api
+    depends_on:
+      companydb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DatabaseSettings:ConnectionString: mongodb://companydb:27017
+    image: companyapi
+    ports:
+    - published: 8000
+      target: 80
+  companydb:
+    container_name: companydb
+    image: mongo
+    ports:
+    - published: 27017
+      target: 27017
+    restart: always
+    volumes:
+    - mongo_data:/data/db:rw
+  stockdb:
+    container_name: stockdb
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: pass@word1
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    ports:
+    - published: 1433
+      target: 1433
+    restart: always
+version: '3.4'
+volumes:
+  mongo_data: {}

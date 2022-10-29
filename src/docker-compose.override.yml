@@ -12,11 +12,18 @@ services:
   stockdb:
     container_name: stockdb
     environment:
-        SA_PASSWORD: "SwN12345678"
+        SA_PASSWORD: "pass@word1"
         ACCEPT_EULA: "Y"
     restart: always
     ports:
         - "1433:1433"
+
+  rabbitmq:
+    container_name: rabbitmq
+    restart: always
+    ports:
+        - "5672:5672"
+        - "15672:15672"
 
   company.api:
     container_name: company.api
@@ -27,3 +34,13 @@ services:
       - companydb
     ports:
       - "8000:80"
+
+  stock.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ConnectionStrings:StockConnectionString=Server=stockdb;Database=StockDb;User Id=sa;Password=pass@word1"
+    depends_on:
+        - stockdb
+    ports:
+        - "8001:80"
+

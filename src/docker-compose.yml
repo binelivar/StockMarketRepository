@@ -7,11 +7,20 @@ services:
   stockdb:
     image: mcr.microsoft.com/mssql/server:2017-latest
 
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+
   company.api:
     image: ${DOCKER_REGISTRY-}companyapi
     build:
       context: .
       dockerfile: Services/Company/Company.API/Dockerfile
+
+  stock.api:
+    image: ${DOCKER_REGISTRY-}stockapi
+    build:
+      context: .
+      dockerfile: Services\Stock\Stock.API\Dockerfile
 
 volumes:
   mongo_data:

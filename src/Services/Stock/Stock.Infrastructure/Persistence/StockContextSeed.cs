@@ -10,7 +10,6 @@ namespace Stock.Infrastructure.Persistence
 {
     public class StockContextSeed
     {
-
         public static async Task SeedAsync(StockContext stockContext, ILogger<StockContextSeed> logger)
         {
             if (!stockContext.Stocks.Any())
@@ -25,7 +24,7 @@ namespace Stock.Infrastructure.Persistence
         {
             return new List<StocksModel>
             {
-                new StocksModel() {CompanyCode = "C008", StockPrice = (float?)7568.98, DateTime = new DateTime(long.Parse("2-2-2019")) }
+                new StocksModel() {CompanyCode = "C008", StockPrice = 7568.98F, DateTime = DateTime.Parse("02-12-2021") }
             };
         }
     }
